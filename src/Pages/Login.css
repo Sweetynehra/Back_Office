@@ -1,0 +1,98 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+   top: 69px;
+   left: 430px;
+   
+}
+
+.login-box {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+}
+
+.captcha-box img {
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background-color: #213546;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button[type="button"] {
+  background-color: #585e5e;
+}
+
+.button-group button:hover {
+  opacity: 0.9;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Adjust padding to make room for the icon */
+  border-radius: 25px; /* Rounded borders */
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Target the select element */
+select {
+  color: grey; /* Set the text color to grey */
+}
+

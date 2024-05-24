@@ -1,0 +1,37 @@
+.contact-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 15px;
+  }
+  
+  .contact-page h2 {
+    text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .contact-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+  }
+  
+  .contact-box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .contact-box h2 {
+    margin: 0 0 10px;
+  }
+  
+  .contact-box p {
+    margin: 0;
+    font-size: 16px;
+  }
